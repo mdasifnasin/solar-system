@@ -650,3 +650,28 @@ spec:
         paths:
         - backend:
             service:
+
+Directory structure:
+└── mdasifnasin-solar-system/
+    ├── README.md
+    ├── Dockerfile
+    ├── app-controller.js
+    ├── app-test.js
+    ├── app.js
+    ├── index.html
+    ├── package.json
+    ├── .dockerignore
+    ├── images/
+    ├── kubernetes/
+    │   ├── development/
+    │   │   ├── deployment.yaml
+    │   │   ├── ingress.yaml
+    │   │   └── service.yaml
+    │   └── production/
+    │       ├── deployment.yaml
+    │       ├── ingress.yaml
+    │       └── service.yaml
+    └── .github/
+        └── workflows/
+            └── solar-system.yml
+            
